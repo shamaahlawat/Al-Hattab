@@ -1,0 +1,57 @@
+@import "../../data/assets/style/style_import";
+
+.CarousalSectionContainer {
+    .ant-carousel {
+        z-index: 1;
+
+        .slick-dots li button {
+            height: 7px !important;
+            margin-top: -20px !important;
+        }
+
+        .carouselContainer {
+            .coverImage {
+                min-height: 100vh;
+                background-size: cover;
+            }
+        }
+    }
+
+    .contentContainer {
+        background-color: rgba($primary, .7);
+        position: absolute;
+        left: 0;
+        bottom: 20%;
+        z-index: 2;
+        letter-spacing: 1px;
+
+        .content {
+            .logo {
+                max-width: 100%;
+            }
+
+            .text {
+                .elementHeading {
+                    line-height: 1.1;
+                }
+
+                .elementText {
+                    line-height: 1.25;
+                }
+
+                .buttonContainer {
+                    button {
+                        border-color: rgba($white, .6);
+                        color: rgba($white, .6);
+                        height: auto;
+
+                        &:hover {
+                            border-color: $white;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

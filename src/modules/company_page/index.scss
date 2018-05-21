@@ -1,0 +1,18 @@
+@import "../../data/assets/style/style_import";
+
+.companyPageContainer {
+    background-color: #f6f8fa;
+    
+    .certificate {
+        font-family: $font-family;
+        font-size: 16px;
+        line-height: 1.88;
+        color: #373a39;
+
+        .certificateImage {
+            img {
+                max-height: 300px;
+            }
+        }
+    }
+}

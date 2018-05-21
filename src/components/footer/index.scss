@@ -1,0 +1,33 @@
+@import "../../data/assets/style/style_import";
+
+.appFooterContainer {
+    background-image: url("https://res.cloudinary.com/poletalks/image/upload/v1524135650/Al-Hattab/footer_background.png");
+
+    .footerBodyContainer {
+        // max-height: 300px;
+
+        .elementHeading {
+            font-weight: 900;
+            letter-spacing: 0.9px;
+        }
+
+        .listItem {
+            white-space: pre-line;
+            letter-spacing: 0.7px;
+            opacity: 0.8;
+            line-height: 2.14;
+
+            &:hover {
+                font-weight: 900;
+            }
+        }
+
+        .setHeight {
+            max-height: 358px;
+        }
+    }
+
+    .rights {
+        letter-spacing: 0.7px;
+    }
+}

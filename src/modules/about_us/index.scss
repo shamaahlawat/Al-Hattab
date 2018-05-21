@@ -1,0 +1,65 @@
+@import "../../data/assets/style/style_import";
+
+.aboutContainer {
+    font-family: $font-family;
+    background: #f6f8fa;
+
+    .tabContentContainer {
+        &.desktop {
+            .tabContentRow {
+                .imageContainer {
+                    width: 35vw;
+                    img {
+                        max-width: 30vw;
+                    }
+                }
+
+                .textContainer {
+                    padding-left: 20px;
+                    padding-right: 0;
+                }
+
+                &.right-align {
+                    .imageContainer {
+                        order: 2;
+                        img {
+                            float: right;
+                        }
+                    }
+                    .textContainer {
+                        order: 1;
+                        padding-left: 0;
+                        padding-right: 20px;
+                    }
+                }
+            }
+        }
+
+        &.mobile {
+            .tabContentRow {
+                flex-direction: column !important;
+
+                .imageContainer {
+                    width: 100% !important;
+                    text-align: center;
+                    img {
+                        max-width: 100% !important;
+                    }
+                }
+
+                .textContainer {
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        .teamContainer {
+            .team {
+                .imageContainer {
+                    min-height: 300px;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+}

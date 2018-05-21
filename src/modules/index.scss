@@ -1,0 +1,70 @@
+@import "../data/assets/style/style_import";
+
+.AppContainer {
+    .AppHeaderContainer {
+        padding: 0 30px;
+        height: auto;
+        line-height: 1;
+    }
+
+    .AppContentLayoutContainer {
+        .AppContentContainer {
+            .AppContent {
+                .pageContiner {
+                    margin-top: 30px;
+
+                    .heading {
+                        font-family: Raleway;
+                        font-size: 18px;
+                        font-weight: $font-extra-bold;
+                        letter-spacing: 0.9px;
+                        color: #242121;
+                        border-bottom: 3px purple solid;
+
+                        &.with-blue {
+                            border-bottom-color: blue;
+                        }
+                    }
+
+                    .blueBorder {
+                        border-bottom: 2px solid #006daa;
+                        width: 10%;
+                    }
+                }
+            }
+
+            .AppFooter {
+                text-align: center;
+                padding: 15px;
+            }
+        }
+    }
+
+    .SidebarContainer {
+        background: $default;
+
+        &.ant-layout-sider-collapsed {
+            .Sidebar {
+                padding: 0 !important;
+            }
+        }
+
+        .ant-layout-sider-trigger {
+            position: inherit;
+            background: $default;
+            color: $font-color;
+            height: 50px;
+            line-height: 30px !important;
+
+            .anticon-left {
+                float: right;
+                margin-right: 15px;
+            }
+        }
+
+        .ant-layout-sider-children {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

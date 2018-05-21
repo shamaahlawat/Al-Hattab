@@ -1,0 +1,22 @@
+.mediaContainer {
+    background-color: #f6f8fa;
+
+    .backgroundImage {
+        background-size: cover;
+        height: 200px;
+        background-repeat: no-repeat;
+    }
+
+    .cardContent {
+        line-height: 1.79;
+
+        .cardTextContainer {
+            min-height: 210px;
+
+            .date {
+                opacity: 0.48;
+            }
+        }
+
+    }
+}

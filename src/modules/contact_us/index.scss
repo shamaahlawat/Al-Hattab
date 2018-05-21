@@ -1,0 +1,25 @@
+@import "../../data/assets/style/style_import";
+
+.contactUsContainer {
+    background: #f6f8fa;
+
+    .subheading {
+        font-family: $font-family;
+        font-size: 18px;
+        font-weight: $font-extra-bold;
+        letter-spacing: 0.9px;
+        color: #242121;
+    }
+
+    .blueBorder {
+        border-bottom: 2px solid #006daa;
+        width: 10%;
+    }
+
+    .addressDetails {
+        font-family: $font-family;
+        font-size: 18px;
+        line-height: 1.67;
+        color: #333333;
+    }
+}
